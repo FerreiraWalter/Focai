@@ -1,0 +1,17 @@
+{
+    "name": "Focaê",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Bloqueia sites",
+    "permissions": [
+        "tabs",
+        "alarms"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
